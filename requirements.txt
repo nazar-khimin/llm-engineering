@@ -1,9 +1,13 @@
+# Core LangChain
 langchain~=1.0.3
-python-dotenv~=1.2.1
 langchain-openai~=1.0.1
 langchain-core~=1.0.2
+
+# Environment & utilities
+python-dotenv~=1.2.1
 ipython~=9.6.0
 pydantic~=2.12.3
-langchain-community~=0.0.21
-faiss-cpu~=1.7.4
 requests~=2.32.3
+
+# Vector database
+faiss-cpu==1.12.0
